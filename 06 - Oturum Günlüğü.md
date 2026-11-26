@@ -11,7 +11,7 @@ Yeni oturum en üste eklenir.
 - Vault açıldı: 00..06 notları (`.obsidian/` oluşturulmadı, kullanıcı kendisi açacak)
 - Karar A-01 (tek uygulama, ayrı vault ve repo); tez vault'unda karşılığı D-42
 - Domino ilk özellik sırası onaylandı: F-01 2 kişilik → F-02 davet → F-03 Capacitor (A-03, [[02 - Yol Haritası]])
-- Özel repo `Muradaliev-1/azerbaycan-oyunlari` açıldı ve push edildi (A-02)
-- 2 kişilik kurallar kısmen alındı ([[04 - Oyun Kuralları]])
+- Özel repo `Muradaliev-1/azerbaycan-oyunlari` onaylandı (A-02); yerel git commit'lendi, GitHub'da açılamadı (`gh` kurulu değil, tarayıcı panelinde GitHub oturumu yok)
+- 2 kişilik ana kurallar alındı, ilk tur başlangıcı dahil ([[04 - Oyun Kuralları]])
 **Testler:** Kod yazılmadı.
-**Açık:** U-01..U-03, 2 kişilik dominoda ilk tur başlangıcı ve teyitler
+**Açık:** U-01..U-03, 2 kişilik kurallarda teyitler (sonraki turlar, bazardaki taşlar puana girer mi, R-19 karşılığı)

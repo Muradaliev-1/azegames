@@ -6,7 +6,7 @@ tags: [az-oyunlari, karar]
 Yeni karar en üste eklenir. Biçim: ID · tarih · karar · gerekçe · geri alınabilir mi.
 
 ## A-03 · 2026-11-26 · Domino ilk özellik sırası: F-01 2 kişilik → F-02 oyun yaratma + davet → F-03 Capacitor
-Kullanıcı onayı (önerilen sıra). Gerekçe: F-01 motor kuralı gerektirir, tezi etkileyen tek iş, erken netleşmeli; F-02 hem 2 hem 4 kişilik odaları kapsar; F-03 arayüz oturunca. 2 kişilik kurallar kısmen alındı ([[04 - Oyun Kuralları]]): 7'şer taş + 14'lük bazar, yalnız zorunluyken çekme, puanlama 4 kişilikle aynı; ilk tur başlangıcı açık. Geri alınabilir: evet.
+Kullanıcı onayı (önerilen sıra). Gerekçe: F-01 motor kuralı gerektirir, tezi etkileyen tek iş, erken netleşmeli; F-02 hem 2 hem 4 kişilik odaları kapsar; F-03 arayüz oturunca. 2 kişilik kurallar kısmen alındı ([[04 - Oyun Kuralları]]): 7'şer taş + 14'lük bazar, yalnız zorunluyken çekme, puanlama 4 kişilikle aynı; ilk tur 1|1, yoksa 2|2 … 6|6, yoksa 0|0 sahibi başlar, hiçbiri yoksa yeniden dağıtım. Geri alınabilir: evet.
 
 ## A-02 · 2026-11-26 · Uygulama reposu: özel `Muradaliev-1/azerbaycan-oyunlari`
 Kullanıcı onayı (ad ve özel olması). Şimdilik yalnız bu vault'u (`docs/`) içerir; repo kökü `C:\Users\murad\Downloads\DominoAI\docs\`. Backend/frontend kodunun buraya taşınması U-01. Geri alınabilir: evet.

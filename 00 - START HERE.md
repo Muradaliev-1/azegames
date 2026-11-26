@@ -37,11 +37,12 @@ Domino, nərd, şahmat ve lotonun tek uygulamada oynandığı, arkadaş davetli,
   - Bu iki repo ve Render/Vercel bağlantıları şimdilik olduğu gibi kalır; yeni yapıya taşınması ayrı karar (U-01).
 - Domino ilk özellik sırası: [[02 - Yol Haritası]].
 
-- Repo: özel `Muradaliev-1/azerbaycan-oyunlari` (A-02), kökü bu `docs/` klasörü, dal `main`.
-- Domino sırası onaylı (A-03). 2 kişilik kurallar kısmen alındı: 7'şer taş + 14'lük bazar, yalnız zorunluyken çekme, puanlama 4 kişilikle aynı.
+- Repo: özel `Muradaliev-1/azerbaycan-oyunlari` onaylandı (A-02); yerel git hazır (kök bu `docs/`, dal `main`), GitHub'da henüz açılmadı (`gh` yok, tarayıcıda oturum yok).
+- Domino sırası onaylı (A-03). 2 kişilik ana kurallar alındı: 7'şer taş + 14'lük bazar, yalnız zorunluyken çekme, ilk tur 1|1 → 2|2 → … → 6|6 → 0|0 (hiçbiri yoksa yeniden dağıtım), puanlama 4 kişilikle aynı.
 
 ## Sıradaki işler
-1. 2 kişilik dominoda **ilk turun başlangıç kuralı** ve kalan teyitler ([[04 - Oyun Kuralları]] açık sorular).
+0. GitHub'da boş özel `azerbaycan-oyunlari` reposu açılır, `git push -u origin main`.
+1. 2 kişilik dominoda kalan teyitler ([[04 - Oyun Kuralları]] açık sorular).
 2. Kurallar netleşince: tezde R-20.. + motor seçeneği (tez reposunda, testli, 4 kişilik bit bit aynı, mutant), sonra kopya senkronu.
 3. Oyun yaratma + arkadaş davet akışının tasarımı (F-02).
 
