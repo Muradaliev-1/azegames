@@ -28,17 +28,26 @@ Domino'da **iki oyun türü** var: **101** ve **Telefon (365)** (kullanıcı, 20
 
 - **4 yön (cevap):** masaya gelen **ilk çift**, açılış taşı olmasa da sonradan gelse de; iki yanı kapanınca 4 yöne açılır. Sonraki çiftler açılmaz.
 - **35 (cevap):** bir oynayışta yazılabilecek en yüksek puan zaten 35 (kullanıcı); yani nokaut = tam 35. Motor bunu bir değişmez olarak test eder (tek oynayışta > 35 olmamalı).
-- **Tur sonu (cevap):** elini bitirene rakiplerin el toplamı **en yakın 5'in katına yuvarlanarak** yazılır.
+- **Tur sonu (cevap):** elini bitirene rakiplerin el toplamı **5'in katına yukarı yuvarlanarak** yazılır (12 → 15, 15 → 15).
+- **Uç toplamı (cevap):** bir kolun ucunda duran çift **iki kez** sayılır (6|6 = 12). 4 yön açıldıktan sonra **4 ucun toplamı** alınır; çiftin henüz oynanmamış tarafı **0** sayılır (ör. 3 tarafa oynanmış, 4.'ye oynanmamışsa 3 uç toplanır).
+- **Kapanma (cevap):** 101'deki gibi (R-10): el toplamları karşılaştırılır, düşük toplamlı kazanır, yüksek toplam yazılır.
+- **Dağıtım (cevap):** oyuncu sayısı ne olursa olsun kişi başı **7** taş. Kalan bazar: 2 kişide 14, 3 kişide 7, 4 kişide 0.
+- **Bazar (cevap):** tek-tek çekimde son **1**, cüt-cüt'te son **2** taş çekilmez.
+- **13 eşiği yok** (cevap): Telefon'da 101'in 13 puan eşiği yok.
+
+- **Dominant sınırı (cevap):** kaybeden tam 225'teyse **1-0**; 2-0 yalnız 225'in altında (eşik ≥ değer yeterli).
+- **Kapanma puanı (cevap):** 5'e yukarı yuvarlanır; **eşitlik 101'deki gibi** (R-11: dört elin toplamı havuza, sonraki turu kazanan alır).
+- **Başlangıç (cevap):** 101 gibi: ilk tur 1|1 (bazar varsa yoksa 2|2 … 6|6 … 0|0 merdiveni, hiçbiri yoksa yeniden dağıtım), sonraki turlar son taşı koyan, herhangi taşla.
 
 ### Telefon: açık sorular
-Motor kodu bunlar netleşmeden yazılmaz.
-- Uç toplamı sayılırken çift uçta (ör. ucunda 6|6 duran kol) çift **iki kez** mi sayılır (12)? 4 yöne açılmış çiftin uçları nasıl sayılır?
-- Yuvarlama: "en yakın" mı (12 → 10, 13 → 15), hep yukarı mı?
-- Kapanmada (kimse oynayamıyor) ne olur?
-- Tek-tek çekimde **son kaç taş** çekilmez (1 mi)? Cüt-cüt'te 2 mi?
-- Dağıtım: 2, 3, 4 kişide kişi başı kaç taş? İlk turu kim, hangi taşla başlatır; sonraki turlar?
-- 101'deki 13 puan eşiği ve bekleyen puan Telefon'da var mı?
-- Dominant eşiğinde "geçemezse" tam olarak `< 225` mi, `≤ 225` mi?
+- Tek oynayış sınırı: 35 en yüksek değer; uç toplamı kuralıyla motor testinde doğrulanacak.
+- 13 eşiği olmadığına göre 101'deki "1|1 ile yeniden başlama" (R-19) Telefon'da yok sayıldı mı? (Varsayım: yok; teyit edilecek.)
+
+### 101: 3 kişilik ve 4 kişilik takımsız (cevap, 2026-11-26)
+- **3 kişilik:** 4 kişilikle aynı kurallar, tek fark **bazar** var (7 taş).
+- **4 kişilik:** ya takımlı (bugünkü 2'ye 2) ya da **herkes kendi eline** oynar.
+- **Takımsız puan (cevap):** bitirene **tüm rakiplerin** el toplamı yazılır; kapanmada **en düşük el** kazanır, ötekilerin toplamını alır.
+- Açık: kapanmada en düşük el iki kişide eşitse ne olur; 3 kişide ilk tur açılışı 2 kişilikteki merdiven gibi mi (varsayım: evet, 1|1 bazarda olabilir).
 
 ### Ayarlanabilir kurallar (masa kurarken, A-05)
 Kullanıcı isteği: oyunu yaratan kişi kuralları kendisi belirler. Bilinen ayarlar:
@@ -46,7 +55,7 @@ Kullanıcı isteği: oyunu yaratan kişi kuralları kendisi belirler. Bilinen ay
 - Oyuncu sayısı: 2, 3, 4 (4'te takımlı / takımsız)
 - Bazar çekimi: tek-tek / cüt-cüt
 - Telefon: dominant eşiği (ör. 205 / 225 / 235 / 265), 35 nokaut aç/kapa
-- 101'in 3 kişilik ve takımsız 4 kişilik kuralları **alınmadı** (açık).
+- 101'in 3 kişilik ve takımsız 4 kişilik kuralları kısmen alındı (yukarıda, açık noktalarla).
 Bot her ayar birleşiminde ayrıca test edilir. Tez ajanı yalnız 4 kişilik 101 için ölçüldü; diğer ayarlarda botun gücü ölçülmeden "güçlü" denmez.
 
 ## Loto
