@@ -27,6 +27,7 @@ Domino'da **iki oyun türü** var: **101** ve **Telefon (365)** (kullanıcı, 20
 - **Oyuncu sayısı:** 2, 3, 4 (4'te takımlı ya da takımsız).
 
 - **4 yön (cevap):** masaya gelen **ilk çift**, açılış taşı olmasa da sonradan gelse de; iki yanı kapanınca 4 yöne açılır. Sonraki çiftler açılmaz.
+- **35 (cevap):** bir oynayışta yazılabilecek en yüksek puan zaten 35 (kullanıcı); yani nokaut = tam 35. Motor bunu bir değişmez olarak test eder (tek oynayışta > 35 olmamalı).
 - **Tur sonu (cevap):** elini bitirene rakiplerin el toplamı **en yakın 5'in katına yuvarlanarak** yazılır.
 
 ### Telefon: açık sorular
@@ -34,7 +35,6 @@ Motor kodu bunlar netleşmeden yazılmaz.
 - Uç toplamı sayılırken çift uçta (ör. ucunda 6|6 duran kol) çift **iki kez** mi sayılır (12)? 4 yöne açılmış çiftin uçları nasıl sayılır?
 - Yuvarlama: "en yakın" mı (12 → 10, 13 → 15), hep yukarı mı?
 - Kapanmada (kimse oynayamıyor) ne olur?
-- **35:** "düz 35" yalnız tam 35 mi, 35 ve üstü mü? (Kullanıcı tercih belirtmedi; masa ayarı da olabilir.)
 - Tek-tek çekimde **son kaç taş** çekilmez (1 mi)? Cüt-cüt'te 2 mi?
 - Dağıtım: 2, 3, 4 kişide kişi başı kaç taş? İlk turu kim, hangi taşla başlatır; sonraki turlar?
 - 101'deki 13 puan eşiği ve bekleyen puan Telefon'da var mı?
