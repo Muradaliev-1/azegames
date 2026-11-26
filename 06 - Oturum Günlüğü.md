@@ -14,4 +14,5 @@ Yeni oturum en üste eklenir.
 - Özel repo `Muradaliev-1/azegames` kullanıcı tarafından açıldı, vault push edildi (A-02)
 - 2 kişilik ana kurallar alındı, ilk tur başlangıcı dahil ([[04 - Oyun Kuralları]])
 **Testler:** Kod yazılmadı.
-**Açık:** U-01..U-03, 2 kişilik kurallarda teyitler (sonraki turlar, bazardaki taşlar puana girer mi, R-19 karşılığı)
+- 2 kişilik kurallar tamamlandı, tezde R-20..R-28
+**Açık:** U-01..U-03; 2'li çekişte ilk taş oynanabilirse ikincisi; yeniden başlamada açılış merdiveni
