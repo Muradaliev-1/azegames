@@ -10,7 +10,7 @@ Tek uygulama, içinden dört oyun: **domino, nərd, şahmat, loto**. Arkadaşla 
 Tez demosunun rolü (tez D-34: tez demosu + insan verisi aracı) bir ürün fikrine büyüdü. Tez jürisi tez reposunu temiz ve odaklı görmeli; ürün işleri ayrı vault ve ayrı repoda yürür (A-01).
 
 ## Oyun sırası
-1. **Domino** önce: motor, sızıntısız bot, arayüz ve canlı demo zaten var. Fark: ölçülmüş güçlü bot, ileride öğretici analiz ([[05 - Öğretici Analiz]]).
+1. **Domino** önce (iki tür: **101** ve **Telefon/365**; masayı kuran kuralları seçer, A-05): motor, sızıntısız bot, arayüz ve canlı demo zaten var. Fark: ölçülmüş güçlü bot, ileride öğretici analiz ([[05 - Öğretici Analiz]]).
 2. **Loto** ve **nərd** sonra.
    - Loto **gerçek parasız** olur. Para (ya da paraya çevrilebilir bir şey) girerse önce kumar mevzuatı incelenir; o zamana kadar konu kapalı.
    - Nərd: kurallar kullanıcıdan alınacak ([[04 - Oyun Kuralları]]); bot yaklaşımı ayrı karar.

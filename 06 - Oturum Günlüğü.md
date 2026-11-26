@@ -13,6 +13,7 @@ Yeni oturum en üste eklenir.
 - Domino ilk özellik sırası onaylandı: F-01 2 kişilik → F-02 davet → F-03 Capacitor (A-03, [[02 - Yol Haritası]])
 - Özel repo `Muradaliev-1/azegames` kullanıcı tarafından açıldı, vault push edildi (A-02)
 - 2 kişilik ana kurallar alındı, ilk tur başlangıcı dahil ([[04 - Oyun Kuralları]])
-**Testler:** Kod yazılmadı.
+- Domino'ya Telefon (365) ve ayarlanabilir kurallar eklendi (A-05, F-06..F-08); Telefon motoru uygulama reposunda yazılacak; Telefon kurallarının bir kısmı alındı
+**Testler:** Uygulama kodu yazılmadı.
 - 2 kişilik kurallar tamamlandı, tezde R-20..R-28
 **Açık:** U-01..U-03

@@ -35,7 +35,7 @@ Domino, nərd, şahmat ve lotonun tek uygulamada oynandığı, arkadaş davetli,
   - backend `C:\Users\murad\Downloads\DominoAI\backend` → `Muradaliev-1/domino-ai-backend` → Render (FastAPI + WebSocket, bot `ismcts-rand@200`)
   - frontend `C:\Users\murad\Downloads\DominoAI\frontend` → `Muradaliev-1/domino-ai-frontend` → Vercel (TypeScript + Vite + DOM, PWA)
   - Bu iki repo ve Render/Vercel bağlantıları şimdilik olduğu gibi kalır; yeni yapıya taşınması ayrı karar (U-01).
-- Domino ilk özellik sırası: [[02 - Yol Haritası]].
+- Domino ilk özellik sırası: [[02 - Yol Haritası]]. Domino'da iki oyun türü: 101 ve Telefon (365) (A-05).
 
 - Repo: özel `Muradaliev-1/azegames` (A-02), kökü bu `docs/` klasörü, dal `main`.
 - Domino sırası onaylı (A-03). 2 kişilik ana kurallar alındı: 7'şer taş + 14'lük bazar, yalnız zorunluyken çekme, ilk tur 1|1 → 2|2 → … → 6|6 → 0|0 (hiçbiri yoksa yeniden dağıtım), puanlama 4 kişilikle aynı.
@@ -43,7 +43,8 @@ Domino, nərd, şahmat ve lotonun tek uygulamada oynandığı, arkadaş davetli,
 ## Sıradaki işler
 1. 2 kişilik kurallar tezde R-20..R-28 (açık soru yok, [[04 - Oyun Kuralları]]).
 2. Motor seçeneği (tez reposunda, testli, 4 kişilik bit bit aynı, mutant), sonra kopya senkronu.
-3. Oyun yaratma + arkadaş davet akışının tasarımı (F-02).
+3. Oyun yaratma + arkadaş davet akışının tasarımı (F-02), içinde kendi kurallarıyla masa (F-06, A-05).
+4. Telefon (365): kalan kural soruları ([[04 - Oyun Kuralları]]), motor uygulama reposunda (A-05).
 
 ## Vault haritası
 - [[01 - Vizyon]] · [[02 - Yol Haritası]] · [[03 - Karar Günlüğü]]

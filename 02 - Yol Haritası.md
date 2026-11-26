@@ -20,6 +20,9 @@ Sıra kullanıcı tarafından onaylandı (2026-11-26, A-03).
 | F-03 | **Telefon uygulaması (Capacitor)** | Arayüz kararlı olmalı | Aynı TypeScript kodu (tez D-32); Android önce mi, iOS mu: U-03 |
 | F-05 | **Sesli sohbet (sonra)** | F-02 odalar + davet | Yalnız arkadaş özel odalarında; WebRTC; ayrıntı A-04, [[01 - Vizyon]] |
 | F-04 | Öğretici maç sonu analizi | Tezde analiz bölümü | [[05 - Öğretici Analiz]] |
+| F-06 | **Kendi kurallarıyla masa kurma** | F-02 | Oyun türü, oyuncu sayısı, takımlı/takımsız, bazar çekimi, Telefon ayarları (A-05); F-02'nin "oyun yarat" ekranının parçası |
+| F-07 | **Telefon (365)** | Kurallar netleşmeli ([[04 - Oyun Kuralları]] açık sorular), ayrı motor | Yeni oyun türü; botu ayrıca gerekir (tez ajanı 101 için) |
+| F-08 | 101'in 3 kişilik / takımsız 4 kişilik modları | Kurallar (kullanıcıdan) | Henüz alınmadı |
 
 Gerekçe (öneri): F-01 motor kuralı gerektirir ve tezi en çok etkileyen iş, erken netleşmeli; F-02 hem 2 hem 4 kişilik odaları kapsar, bu yüzden F-01'in kural kararından sonra; F-03 en son, çünkü arayüz değişirken paketlemek tekrar iş çıkarır.
 

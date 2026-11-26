@@ -5,6 +5,9 @@ tags: [az-oyunlari, karar]
 
 Yeni karar en üste eklenir. Biçim: ID · tarih · karar · gerekçe · geri alınabilir mi.
 
+## A-05 · 2026-11-26 · Domino'da iki oyun türü (101, Telefon) ve masayı kuranın seçtiği kurallar
+Kullanıcı isteği: oyun yaratan kişi kuralları kendisi belirler (oyun türü, 2/3/4 oyuncu, takımlı/takımsız, bazar tek-tek / cüt-cüt, Telefon'da dominant eşiği ve 35 nokaut). Telefon (365) yeni oyun türü olarak eklenir (F-07); kuralları [[04 - Oyun Kuralları]]. Kaynak: kullanıcının bilgisi; rakip uygulamanın (Yerli Domino) mağaza ekran görüntüleri yalnız hangi ayarların toplulukta yaygın olduğunu gösteren işaret olarak kullanıldı, tasarım ve metinleri kopyalanmaz. **Motor yeri (kullanıcı, önerilen):** Telefon motoru ve 101'in 3 kişilik / takımsız 4 kişilik modları **uygulama reposunda** yazılır; tez reposu yalnız 4 ve 2 kişilik 101 ile odaklı kalır. Geri alınabilir: evet.
+
 ## A-04 · 2026-11-26 · Sesli sohbet sonraya; açılırsa yalnız arkadaş özel odalarında
 Kullanıcı fikri ve kararı (başka oturum üzerinden iletildi). Gerekçe: rastgele/sıralamalı maçta partnere el bilgisi sızdırmak haksızlık. Ses kaydedilmez; ses açık oyunlar kayıtta işaretlenir ve tez için temiz insan verisi sayılmaz. Ön koşul F-02. Ayrıntı [[01 - Vizyon]]. Geri alınabilir: evet.
 
