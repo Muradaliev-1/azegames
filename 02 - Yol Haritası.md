@@ -7,7 +7,7 @@ Tez öncelikli; uygulama işleri tezi engellemez.
 
 ## Faz U0: Kuruluş
 - [x] Uygulama vault'u (2026-11-26)
-- [x] Uygulama GitHub reposu: özel `Muradaliev-1/azerbaycan-oyunlari` (A-02, 2026-11-26)
+- [x] Uygulama GitHub reposu: özel `Muradaliev-1/azegames` (A-02, 2026-11-26)
 - [ ] Mevcut demo repolarının (backend, frontend) yeni yapıdaki yeri (U-01)
 
 ## Faz U1: Domino (ilk özellikler, sıra)
