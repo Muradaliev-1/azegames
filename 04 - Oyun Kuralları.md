@@ -18,7 +18,7 @@ Domino'da **iki oyun türü** var: **101** ve **Telefon (365)** (kullanıcı, 20
   - Not (ölçüm): iki elde de merdiven çifti olmaması, yani yedi çiftin hepsinin bazarda olması, olasılıkla C(14,7)/C(28,7) ≈ %0,29 (200 000 dağıtımda %0,31). Bu yüzden yeniden dağıtım çok seyrek görülür.
 
 ### Telefon (365): kullanıcının anlattığı (2026-11-26)
-- **Puan:** her oynayışta açık uçların toplamı **5'e bölünüyorsa** o toplam oynayan oyuncunun takımına yazılır.
+- **Puan:** her oynayışta açık uçların toplamı **5'e bölünüyorsa** o toplam oynayan oyuncunun takımına yazılır; bölünmüyorsa puan **yok** (ör. 4 uç 6, 4, 3, 1 → 14 → 0 puan; kullanıcı örneği).
 - **Hedef:** ilk **365**'e ulaşan kazanır; 365'e kadar oyun (turlar) devam eder.
 - **4 yöne oynama:** masaya gelen ilk çiftin iki yanı da kapandıktan sonra o çiftin 4 tarafına da oynanabilir.
 - **Dominant eşiği:** kazanan 365'e ulaştığında kaybeden **225'i geçemediyse** maç genel skora **2-0** yazılır, geçtiyse 1-0. Eşik masaya göre değişebilir (kullanıcı: 225, 235; ayar).
@@ -41,13 +41,14 @@ Domino'da **iki oyun türü** var: **101** ve **Telefon (365)** (kullanıcı, 20
 
 ### Telefon: açık sorular
 - Tek oynayış sınırı: 35 en yüksek değer; uç toplamı kuralıyla motor testinde doğrulanacak.
-- 13 eşiği olmadığına göre 101'deki "1|1 ile yeniden başlama" (R-19) Telefon'da yok sayıldı mı? (Varsayım: yok; teyit edilecek.)
+- (Kapandı) Telefon'da R-19 (1|1 ile yeniden başlama) yok: kullanıcı teyit etti.
 
 ### 101: 3 kişilik ve 4 kişilik takımsız (cevap, 2026-11-26)
 - **3 kişilik:** 4 kişilikle aynı kurallar, tek fark **bazar** var (7 taş).
 - **4 kişilik:** ya takımlı (bugünkü 2'ye 2) ya da **herkes kendi eline** oynar.
 - **Takımsız puan (cevap):** bitirene **tüm rakiplerin** el toplamı yazılır; kapanmada **en düşük el** kazanır, ötekilerin toplamını alır.
-- Açık: kapanmada en düşük el iki kişide eşitse ne olur; 3 kişide ilk tur açılışı 2 kişilikteki merdiven gibi mi (varsayım: evet, 1|1 bazarda olabilir).
+- **Takımsız kapanmada eşitlik (cevap, şimdilik):** en düşük el iki kişide eşitse yazılacak puan **ikiye bölünür**, ikisine yazılır. (Tek sayıda yarımın yuvarlanması açık.)
+- **3 kişide açılış (cevap):** 2 kişilikteki merdiven (1|1, yoksa 2|2 … 6|6, yoksa 0|0; hiçbiri yoksa yeniden dağıtım).
 
 ### Ayarlanabilir kurallar (masa kurarken, A-05)
 Kullanıcı isteği: oyunu yaratan kişi kuralları kendisi belirler. Bilinen ayarlar:
