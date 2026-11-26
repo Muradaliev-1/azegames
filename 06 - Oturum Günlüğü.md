@@ -15,4 +15,4 @@ Yeni oturum en üste eklenir.
 - 2 kişilik ana kurallar alındı, ilk tur başlangıcı dahil ([[04 - Oyun Kuralları]])
 **Testler:** Kod yazılmadı.
 - 2 kişilik kurallar tamamlandı, tezde R-20..R-28
-**Açık:** U-01..U-03; yeniden başlamada açılış merdiveni
+**Açık:** U-01..U-03
