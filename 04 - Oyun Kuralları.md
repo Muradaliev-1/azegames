@@ -11,7 +11,7 @@ Domino'da **iki oyun türü** var: **101** ve **Telefon (365)** (kullanıcı, 20
 ### 101
 - **4 kişilik (2'ye 2, 101 puan):** kaynak tez `03 - Kurallar.md` (R-01..R-19, onaylı). Burada kopyalanmaz.
 - **2 kişilik:** motoru etkilediği için onaylanan kurallar tez `03 - Kurallar.md`'ye yeni R-xx kimlikleriyle yazılır; burada yalnız özet ve bağlantı tutulur.
-  - Durum: alındı (2026-11-26), tez `03 - Kurallar.md` D bölümünde **R-20..R-28**. Motorda henüz yok.
+  - Durum: alındı (2026-11-26), tez `03 - Kurallar.md` D bölümünde **R-20..R-28**. **Motorda (2026-11-27):** tez `domino/engine.py` `Round2`/`Match2`, tez commit `a0cd8b0`, 215 test, 11/11 mutant; 4 kişilik davranış bit bit aynı. Uygulama arka ucuna senkron henüz yapılmadı (kullanıcı onayıyla).
   - Özet: 7'şer taş, kalan 14 bazar; oynanabilir taşı yoksa bazardan **2'şer** çeker (taşı varken çekemez); **bazarın son 2 taşı çekilmez**; çekecek taş yoksa pas; çekilebilir taş yokken iki pas = kapanma; bazardakiler puana girmez. İlk tur 1|1 → 2|2 → … → 6|6 → 0|0 sahibi o çiftle; hiçbiri yoksa yeniden dağıtım. Sonraki turlar son taşı koyan başlar. Puanlama, 13 eşiği, bekleyen, 101 ve 1|1 yeniden başlama 4 kişilikle aynı.
   - 2'li çekişte iki taş birlikte alınır (ilk taş oynanabilir olsa da).
   - Yeniden başlamada 1|1 bazardaysa açılış merdivenle bulunur; çift yoksa yeniden dağıtım sınırsız. Açık kural sorusu yok.

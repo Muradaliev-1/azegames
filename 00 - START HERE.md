@@ -30,7 +30,8 @@ Domino, nərd, şahmat ve lotonun tek uygulamada oynandığı, arkadaş davetli,
 | F-xx | Özellik | [[02 - Yol Haritası]] |
 | K-<oyun>-xx | Oyun kuralı (dominonun motor kuralları tezde R-xx) | [[04 - Oyun Kuralları]] |
 
-## Durum (2026-11-26)
+## Durum (2026-11-27)
+- F-01: 2 kişilik 101 motoru tez reposunda hazır (`Round2`/`Match2`); arka uçta ve arayüzde henüz yok.
 - Vault açıldı (iskelet). Uygulama kodu henüz yok; mevcut domino demosu ayrı repolarda canlıda:
   - backend `C:\Users\murad\Downloads\DominoAI\backend` → `Muradaliev-1/domino-ai-backend` → Render (FastAPI + WebSocket, bot `ismcts-rand@200`)
   - frontend `C:\Users\murad\Downloads\DominoAI\frontend` → `Muradaliev-1/domino-ai-frontend` → Vercel (TypeScript + Vite + DOM, PWA)
@@ -41,8 +42,8 @@ Domino, nərd, şahmat ve lotonun tek uygulamada oynandığı, arkadaş davetli,
 - Domino sırası onaylı (A-03). 2 kişilik ana kurallar alındı: 7'şer taş + 14'lük bazar, yalnız zorunluyken çekme, ilk tur 1|1 → 2|2 → … → 6|6 → 0|0 (hiçbiri yoksa yeniden dağıtım), puanlama 4 kişilikle aynı.
 
 ## Sıradaki işler
-1. 2 kişilik kurallar tezde R-20..R-28 (açık soru yok, [[04 - Oyun Kuralları]]).
-2. Motor seçeneği (tez reposunda, testli, 4 kişilik bit bit aynı, mutant), sonra kopya senkronu.
+1. ~~2 kişilik kurallar (R-20..R-28) ve motor seçeneği~~ bitti (2026-11-27, tez `a0cd8b0`, 215 test, 11/11 mutant).
+2. Arka uca kopya senkronu + 2 kişilik oda (canlıya push kullanıcı onayıyla).
 3. Oyun yaratma + arkadaş davet akışının tasarımı (F-02), içinde kendi kurallarıyla masa (F-06, A-05).
 4. Telefon (365): kalan kural soruları ([[04 - Oyun Kuralları]]), motor uygulama reposunda (A-05).
 

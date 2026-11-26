@@ -5,6 +5,10 @@ tags: [az-oyunlari, gunluk]
 
 Yeni oturum en üste eklenir.
 
+## 2026-11-27 · Oturum 1 devamı
+- F-01 motoru tez reposunda bitti: `Round2`/`Match2` (R-20..R-28), tez commit `a0cd8b0`; 215 test geçti, `--only 2p` 11/11, 4 kişilik iz bit bit aynı (T-2P0). Tam mutasyon (238) tezde koşuyor.
+- Sıradaki: arka uca senkron (`tools/sync_domino.py`) ve 2 kişilik oda; canlıya (Render/Vercel) push kullanıcı onayıyla.
+
 ## 2026-11-26 · Oturum 1 (kuruluş)
 **Hedef:** Tezden ayrı çok oyunlu uygulama projesini kurmak, domino ilk özellik sırasını belirlemek.
 **Yapılanlar**
