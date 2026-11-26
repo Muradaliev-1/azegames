@@ -41,7 +41,7 @@ Domino, nərd, şahmat ve lotonun tek uygulamada oynandığı, arkadaş davetli,
 - Domino sırası onaylı (A-03). 2 kişilik ana kurallar alındı: 7'şer taş + 14'lük bazar, yalnız zorunluyken çekme, ilk tur 1|1 → 2|2 → … → 6|6 → 0|0 (hiçbiri yoksa yeniden dağıtım), puanlama 4 kişilikle aynı.
 
 ## Sıradaki işler
-1. 2 kişilik kurallar tezde R-20..R-28 (iki küçük açık nokta, [[04 - Oyun Kuralları]]).
+1. 2 kişilik kurallar tezde R-20..R-28 (bir küçük açık nokta, [[04 - Oyun Kuralları]]).
 2. Motor seçeneği (tez reposunda, testli, 4 kişilik bit bit aynı, mutant), sonra kopya senkronu.
 3. Oyun yaratma + arkadaş davet akışının tasarımı (F-02).
 
