@@ -43,7 +43,7 @@ Domino, nərd, şahmat ve lotonun tek uygulamada oynandığı, arkadaş davetli,
 
 ## Sıradaki işler
 1. ~~2 kişilik kurallar (R-20..R-28) ve motor seçeneği~~ bitti (2026-11-27, tez `a0cd8b0`, 215 test, 11/11 mutant).
-2. ~~Arka uca senkron + 2 kişilik oda (yerel)~~ bitti (2026-11-27). Canlıya alındı (2026-11-27). Kalan: 2 kişilik güçlü bot.
+2. ~~Arka uca senkron + 2 kişilik oda (yerel)~~ bitti (2026-11-27). Canlıya alındı (2026-11-27). 2 kişilik güçlü bot yapılmayacak (A-06).
 3. Oyun yaratma + arkadaş davet akışının tasarımı (F-02), içinde kendi kurallarıyla masa (F-06, A-05).
 4. Telefon (365): kalan kural soruları ([[04 - Oyun Kuralları]]), motor uygulama reposunda (A-05).
 
