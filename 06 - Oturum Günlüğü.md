@@ -11,7 +11,7 @@ Yeni oturum en üste eklenir.
 - Testler: arka uç `tests/run.py` 16 geçti (T-DM9, T-DM9b, T-DM9c yeni); arka uç mutasyonu 30 mutant (7 yeni "2p"); arayüz `vitest` 22 geçti (M-8..M-10, G-3, G-4 yeni), `tsc` temiz, uçtan uca 9/9 (4 kişilik, değişmedi) + E-8 (2 kişilik, telefon boyu, 2 tur) geçti. Tarayıcıda elle de denendi (masaüstü ve telefon boyu): çekiş, tur sonu, sonraki tur son taşı koyanla başlıyor.
 - Commit/push yok: `domino-ai-backend` ve `domino-ai-frontend` repolarına ve canlıya dokunulmadı (değişiklikler yerel çalışma ağacında). Canlıya almak kullanıcı onayı ister.
 - Açık: 2 kişilik bot (arama ajanını 2 kişiye uyarlamak tez kodunda iş: belief/search 4 koltuk varsayıyor); 2 kişilik arkadaş odası (iki insan) F-02 ile.
-- Takımsız 101 kapanma eşitliği (kullanıcı): puan kenarda bekler, sonraki turu kazanan alır; ikiye bölme kalktı ([[04 - Oyun Kuralları]]). Motor henüz yok (F-08).
+- Takımsız 101 kapanma eşitliği (kullanıcı): puan kenarda bekler, sonraki turu kazanan alır; ikiye bölme kalktı; kenarda bekleyen = bütün ellerin toplamı (101 gibi) ([[04 - Oyun Kuralları]]). Motor henüz yok (F-08).
 
 ## 2026-11-26 · Oturum 1 (kuruluş)
 **Hedef:** Tezden ayrı çok oyunlu uygulama projesini kurmak, domino ilk özellik sırasını belirlemek.
