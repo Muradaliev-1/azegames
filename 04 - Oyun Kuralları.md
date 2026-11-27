@@ -49,7 +49,7 @@ Domino'da **iki oyun türü** var: **101** ve **Telefon (365)** (kullanıcı, 20
 - **Takımsız puan (cevap):** bitirene **tüm rakiplerin** el toplamı yazılır; kapanmada **en düşük el** kazanır, ötekilerin toplamını alır.
 - **Takımsız kapanmada eşitlik (cevap, 2026-11-27, ikiye bölmenin yerine):** en düşük el iki (ya da daha çok) kişide eşitse puan **kimseye yazılmaz, kenarda bekler**; **sonraki turu kazanan alır** (101'deki eşitlik havuzu R-11 gibi). İkiye bölme kalktı, yuvarlama sorusu da kalktı.
   - **Miktar (cevap, 2026-11-27):** 101'deki gibi **masadaki bütün ellerin toplamı** kenarda bekler (eşit kalanlarınki dahil).
-  - Varsayım (onay bekliyor, 101 R-11/R-16/R-17'den çıkarım): üst üste eşitlikte birikir; sonraki turu kazanan bekleyeni tur puanıyla birlikte alır, 13 eşiği 101'deki gibi bekleyen + tur puanına bakar.
+  - **Birikme ve 13 eşiği (cevap, 2026-11-27: "101 gibi"):** üst üste eşitlikte birikir; sonraki turu kazanan bekleyeni tur puanıyla birlikte alır; 13 eşiği 101'deki gibi (R-11, R-16, R-17). Takımsız eşitlik için açık soru kalmadı.
 - **3 kişide açılış (cevap):** 2 kişilikteki merdiven (1|1, yoksa 2|2 … 6|6, yoksa 0|0; hiçbiri yoksa yeniden dağıtım).
 
 ### Ayarlanabilir kurallar (masa kurarken, A-05)
