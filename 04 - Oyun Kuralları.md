@@ -47,7 +47,8 @@ Domino'da **iki oyun türü** var: **101** ve **Telefon (365)** (kullanıcı, 20
 - **3 kişilik:** 4 kişilikle aynı kurallar, tek fark **bazar** var (7 taş).
 - **4 kişilik:** ya takımlı (bugünkü 2'ye 2) ya da **herkes kendi eline** oynar.
 - **Takımsız puan (cevap):** bitirene **tüm rakiplerin** el toplamı yazılır; kapanmada **en düşük el** kazanır, ötekilerin toplamını alır.
-- **Takımsız kapanmada eşitlik (cevap, şimdilik):** en düşük el iki kişide eşitse yazılacak puan **ikiye bölünür**, ikisine yazılır. (Tek sayıda yarımın yuvarlanması açık.)
+- **Takımsız kapanmada eşitlik (cevap, 2026-11-27, ikiye bölmenin yerine):** en düşük el iki (ya da daha çok) kişide eşitse puan **kimseye yazılmaz, kenarda bekler**; **sonraki turu kazanan alır** (101'deki eşitlik havuzu R-11 gibi). İkiye bölme kalktı, yuvarlama sorusu da kalktı.
+  - Açık: kenarda bekleyen miktar tam olarak ne (yazılacak puan mı = eşit olmayanların el toplamı, yoksa 101'deki gibi bütün ellerin toplamı mı)? Sonraki tur da eşitlikle kapanırsa birikir mi? 13 eşiğiyle ilişkisi 101'deki gibi mi (bekleyen + tur puanı)?
 - **3 kişide açılış (cevap):** 2 kişilikteki merdiven (1|1, yoksa 2|2 … 6|6, yoksa 0|0; hiçbiri yoksa yeniden dağıtım).
 
 ### Ayarlanabilir kurallar (masa kurarken, A-05)
