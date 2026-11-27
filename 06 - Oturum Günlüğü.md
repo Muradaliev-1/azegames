@@ -12,6 +12,7 @@ Yeni oturum en üste eklenir.
 - Commit/push yok: `domino-ai-backend` ve `domino-ai-frontend` repolarına ve canlıya dokunulmadı (değişiklikler yerel çalışma ağacında). Canlıya almak kullanıcı onayı ister.
 - Açık: 2 kişilik bot (arama ajanını 2 kişiye uyarlamak tez kodunda iş: belief/search 4 koltuk varsayıyor); 2 kişilik arkadaş odası (iki insan) F-02 ile.
 - Takımsız 101 kapanma eşitliği (kullanıcı): puan kenarda bekler, sonraki turu kazanan alır; ikiye bölme kalktı; kenarda bekleyen = bütün ellerin toplamı (101 gibi) ([[04 - Oyun Kuralları]]). Motor henüz yok (F-08).
+- **Canlıya alındı (kullanıcı: "Canlıya al"):** backend `228b0e8..c02e31a` (Render, `domino_version` a0cd8b0 doğrulandı), frontend `935a6c5..88668b0` (Vercel). Canlı duman testi: "Bota karşı (2 kişi)" ile tam tur, 0 hata, 5 çekiş, kapanmada bazarda 2 taş kaldı (R-22), 13 eşiği bekletti; 4 kişilik giriş çalışıyor. Yan etki: 4 kişilik giriş denemesinde bekleyen gerçek bir oyuncuyla eşleşildi ve hemen çıkıldı (o odada partner 60 sn "koptu" göründü). Ders: canlıda 4 kişilik duman testi bekleme odasını boşken (`/rooms` → `waiting: false`) yapılmalı.
 
 ## 2026-11-26 · Oturum 1 (kuruluş)
 **Hedef:** Tezden ayrı çok oyunlu uygulama projesini kurmak, domino ilk özellik sırasını belirlemek.
